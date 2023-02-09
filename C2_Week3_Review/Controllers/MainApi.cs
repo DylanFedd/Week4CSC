@@ -34,6 +34,16 @@ namespace C2_Week3_Review.Controllers
                 }
             }
 
+            LogObject(lint);
+
+            void LogObject(List<int> lint)
+            {
+                foreach(int i in lint)
+                {
+                    Console.WriteLine(i);
+                }
+            }
+
             //return slist;
             return Accepted(slist);
         }
